@@ -29,4 +29,4 @@ jobs:
         context: .
         push: true
         # PASTIKAN TAG INI SAMA DENGAN YANG DI CLOUD RUN
-        tags: dapurspl/gas2026:latest
+        tags: dapurspl/gas20262:latest
