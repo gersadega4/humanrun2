@@ -19,7 +19,7 @@ jobs:
     - name: Login to Docker Hub
       uses: docker/login-action@v3
       with:
-        username: ersnyeryw4
+        username: arwyboaynu
         password: ${{ secrets.DOCKERPW }}
 
     # 3. Build dan Push menggunakan Action resmi (Lebih Cepat & Stabil)
@@ -29,4 +29,4 @@ jobs:
         context: .
         push: true
         # PASTIKAN TAG INI SAMA DENGAN YANG DI CLOUD RUN
-        tags: ersnyeryw4/jengah:latest
+        tags: arwyboaynu/jengah:latest
