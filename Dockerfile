@@ -5,6 +5,7 @@ FROM python:3.11-slim
 # Menggunakan && untuk menggabungkan perintah dalam satu layer
 RUN apt-get update && apt-get install -y \
     wget \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
 # 2. Tentukan folder kerja
